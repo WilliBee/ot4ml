@@ -17,6 +17,19 @@ You can either download these `.ipynb` notebooks and run them locally, or click 
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" style="display:inline; vertical-align:middle;"/> 
 to run them directly in Google Colab (requires a Google account).
 
+## Julia Resources
+
+You will also find the Julia version of the notebooks above:
+
+- [Optimal Transport with Linear Programming](julia/1-linprog.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/WilliBee/ot4ml/blob/main/julia/1-linprog.ipynb)
+- [Entropic Regularization of Optimal Transport](julia/2-sinkhorn.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/WilliBee/ot4ml/blob/main/julia/2-sinkhorn.ipynb)
+- [Advanced Topics on Sinkhorn Algorithm](julia/3-sinkhorn-advanced.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/WilliBee/ot4ml/blob/main/julia/3-sinkhorn-advanced.ipynb)
+- [Semi-discrete Optimal Transport](julia/4-semidiscrete.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/WilliBee/ot4ml/blob/main/julia/4-semidiscrete.ipynb)
+- [Unbalanced Optimal Transport](julia/5-unbalanced.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/WilliBee/ot4ml/blob/main/julia/5-unbalanced.ipynb)
+- [Diffusion models and Optimal Transport](julia/6-diffusion.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/WilliBee/ot4ml/blob/main/julia/6-diffusion.ipynb)
+
+Note: Don't forget to change the execution environment to Julia if using Colab. When using a GPU in Colab, you might run into an error during "initialization of module Libglvnd_jll" (or similar); just running the cell again should solve the issue.
+
 ## Slides for the Course
 
 - [Monge and Kantorovitch](https://speakerdeck.com/gpeyre/computational-ot-number-1-monge-and-kantorovitch)
